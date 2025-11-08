@@ -1,0 +1,25 @@
+
+body {
+  margin: 0;
+  font-family: serif;
+  background: #f7f7f7;
+  color: #333;
+  text-align: center;
+}
+header {
+  padding: 2rem;
+  background: white;
+}
+.hero {
+  padding: 4rem 1rem;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+}
+.content {
+  padding: 2rem;
+}
+footer {
+  padding: 1rem;
+  background: #111;
+  color: white;
+}
