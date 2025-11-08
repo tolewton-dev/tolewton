@@ -1,30 +1,112 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tolewton</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tolewton — Fe, arte y mito</title>
+  <meta name="description" content="Filosofía, literatura y el resplandor del mito: Tolkien, Lewis y Chesterton." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Tolewton</h1>
-    <p>Filosofía, literatura y el resplandor del mito.</p>
-  </header>
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html">
+      <span class="brand-title">TOLEWTON</span>
+      <span class="brand-subtitle">Fe · Arte · Mito</span>
+    </a>
+    <nav class="nav">
+      <a href="index.html">Inicio</a>
+      <a href="sobre.html">Sobre mí</a>
+      <a href="blog.html">Blog</a>
+      <a class="btn" href="#contacto">Contacto</a>
+    </nav>
+  </div>
+</header>
 
-  <section class="hero">
-    <h2>Bienvenido</h2>
-    <p>Un espacio para reflexionar, contemplar y reencontrarse con lo eterno.</p>
-  </section>
+<section class="hero" style="--hero:url('assets/hero-bilbo.jpg')">
+  <div class="container hero-inner">
+    <h1 class="hero-title">Entra en el viaje</h1>
+    <p class="hero-sub">Explorando la esperanza en la Tierra Media y más allá</p>
+    <div class="cta">
+      <a class="button button--primary" href="blog.html">Leer artículos</a>
+      <a class="button button--ghost" href="sobre.html">Conocer la visión</a>
+    </div>
+  </div>
+</section>
 
-  <section class="content">
-    <h3>Próximamente</h3>
-    <p>Publicaré artículos, reflexiones y más contenido aquí.</p>
-  </section>
+<section class="section">
+  <div class="container intro center">
+    <h2>Mística, razón y aventura</h2>
+    <p class="lead">Una mezcla de <strong>estética editorial</strong>, <strong>cartas de autor</strong>, <strong>ensayos breves</strong> y <strong>galería visual</strong> — una síntesis “A + B + C + D”.</p>
+  </div>
+  <div class="container cards">
+    <article class="card">
+      <div class="card-img ratio-16x9" style="background-image:linear-gradient(180deg,rgba(0,0,0,.05),rgba(0,0,0,.2)), var(--img); --img:url('assets/hero-bilbo.jpg')"></div>
+      <div class="card-body">
+        <h3>Poética de los senderos</h3>
+        <p>Notas sobre el caminar humilde: el corazón aprende la dirección paso a paso.</p>
+        <a class="more" href="blog.html">Abrir</a>
+      </div>
+    </article>
+    <article class="card">
+      <div class="card-img ratio-16x9" style="--img:url('assets/hero-bilbo.jpg')"></div>
+      <div class="card-body">
+        <h3>La luz que guía</h3>
+        <p>Cómo la memoria del bien sostiene al viajero cuando el horizonte se nubla.</p>
+        <a class="more" href="blog.html">Abrir</a>
+      </div>
+    </article>
+    <article class="card">
+      <div class="card-img ratio-16x9" style="--img:url('assets/hero-bilbo.jpg')"></div>
+      <div class="card-body">
+        <h3>Cartas a lectores</h3>
+        <p>Respuestas breves a preguntas reales: literatura, fe y formación del ánimo.</p>
+        <a class="more" href="blog.html">Abrir</a>
+      </div>
+    </article>
+  </div>
+</section>
 
-  <footer>
-    <p>© 2025 Tolewton</p>
-  </footer>
+<section class="section section-alt">
+  <div class="container grid-2">
+    <div>
+      <h2>Suscribite</h2>
+      <p class="lead">Recibí en tu correo un ensayo mensual y los mejores hilos del mes.</p>
+      <form class="form">
+        <input type="email" placeholder="Tu email" />
+        <button class="button button--primary" type="button">Quiero recibir</button>
+      </form>
+    </div>
+    <div class="panel">
+      <h3>Próximos temas</h3>
+      <ul>
+        <li>Esperanza en el exilio (Tolkien)</li>
+        <li>La obediencia de la imaginación (Lewis)</li>
+        <li>El mundo al revés, pero alegre (Chesterton)</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer id="contacto" class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>Tolewton</h4>
+      <p>Filosofía y literatura con mirada esperanzada.</p>
+    </div>
+    <div>
+      <h4>Contacto</h4>
+      <p>Escribime a: <a href="mailto:contacto@ejemplo.com">contacto@ejemplo.com</a></p>
+    </div>
+    <div>
+      <h4>Redes</h4>
+      <p><a href="#">Instagram</a> · <a href="#">YouTube</a></p>
+    </div>
+  </div>
+  <div class="copy">© 2025 · Tolewton</div>
+</footer>
 </body>
 </html>
